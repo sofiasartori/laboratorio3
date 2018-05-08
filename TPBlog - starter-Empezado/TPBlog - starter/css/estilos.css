@@ -1,0 +1,118 @@
+h2{
+    color:turquoise;
+}
+
+.boton{
+    background-color: turquoise;
+    color: white;
+}
+
+.navegacion ul, .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: crimson;
+}
+.navegacion li, .menu li{
+    float:left;
+}
+.navegacion li a, .menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navegacion li a:hover, .menu li a:hover {
+    background-color:turquoise;
+}
+
+.opciones{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.opciones a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.opciones a:hover {
+    background-color: #ddd;
+}
+
+#btnNosotros:hover .opciones {
+    display: block;
+}
+
+.contenido{
+    padding-left: 15%;
+    /*padding-right: 15%;*/
+}
+
+.fotoArticulo{
+    width: 320px;
+    float:left;
+}
+
+p{
+    line-height: 1.6em;
+    padding-right: 25%;
+}
+
+.sidebar{
+    flex:25%;
+}
+
+footer{
+    background-color: crimson;
+    margin-top: 50px;
+}
+
+.nosotros{
+    color:white;
+    padding-left: 15%;
+    flex:50%;
+}
+
+.derechos{
+    text-align: center;
+    color:white;
+}
+
+#sobreNos{
+    color:white;
+}
+
+.menu{
+    float:right;
+    flex:50%;
+    padding-top:20px;
+}
+
+.main{
+    flex:75%;
+}
+
+.sidebar ul{
+    list-style-type: none;
+
+}
+.sidebar ul a{
+    display: block;
+    color: turquoise;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
